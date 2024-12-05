@@ -1,3 +1,4 @@
+
 # Solicita o texto para o usuario
 n = input("Insira um texto: ")
 
@@ -5,7 +6,7 @@ l = 0 # Inicializa o contador de letras
 
 # Verifica se é uma letra e conta quantas letras tem no texto
 for char in n:
-    if 'a' <= char <= 'z' or 'A' <= char <= 'Z':  
+    if 'a' <= char <= 'z' or 'A' <= char <= 'Z':
         l += 1
 
 p = 1 # Inciializa o contador de palavras
@@ -23,7 +24,7 @@ s = 0 # Inicializa o contador de sentenças
 # Incrementa o contador ao encontrar espaços ' '
 for i in n:
    if i in ['!' , '.' , '?']:
-      s += 1 
+      s += 1
 
 
 l = l / p * 100 # Calcula a media de letras por 100 palavras
@@ -39,4 +40,7 @@ elif index < 1:
 else:
    print(f"Grade: {index}")
 
+
+
 #0.0588 * L - 0.296 * S - 15.8, onde L é o número médio de letras p, 100 palavras no texto e S é o número médio de sentenças por 100 palavras no texto.
+

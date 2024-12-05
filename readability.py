@@ -7,7 +7,7 @@ l = 0 # Inicializa o contador de letras
 # Verifica se é uma letra e conta quantas letras tem no texto
 for char in n:
     if 'a' <= char <= 'z' or 'A' <= char <= 'Z':
-        l += 
+        l += 1
 p = 1 # Inciializa o contador de palavras
 
 # Conta o numero de palavras no texto
